@@ -6,5 +6,7 @@ categories: birth
 ---
 Learning as we go here. I like the idea of blogging without Wordpress and having to deal with mysql or hosting. Neat.
 
+documenting as I go.
+
 More soon
 --Justin
