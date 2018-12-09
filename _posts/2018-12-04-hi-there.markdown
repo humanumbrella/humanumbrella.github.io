@@ -4,7 +4,8 @@ title:  "Hello, World!"
 date:   2018-12-04 13:37:14 -0800
 categories: birth
 ---
-Learning as we go here. I like the idea of blogging without Wordpress and having to deal with mysql or hosting. Neat.
+Learning as we go here. I like the idea of blogging without Wordpress and having
+to deal with mysql or hosting. Neat.
 
 documenting as I go.
 
