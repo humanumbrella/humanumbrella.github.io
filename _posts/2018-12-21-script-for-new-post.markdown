@@ -10,4 +10,4 @@ image: bg.png
 ---
 OK cool, that seems to work now.
 
-So, I'm using the basic terminal in Ubuntu, haven't installed anything extra. So - in my case, I wanted to add a function to my ~/.bashrc so that I can call it to make a new post instead of copy-pasting the post and changing all of the variables, especially the datetime.
+So, I'm using the basic Terminal in Ubuntu 18.10 as I haven't installed anything extra or fancier. I wanted to add a function to my ~/.bashrc so that I can call it to make a new post instead of copy-pasting the post and changing all of the variables each time, especially the datetime.
