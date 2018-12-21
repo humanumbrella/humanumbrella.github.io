@@ -6,7 +6,10 @@ permalink: /projects/
 
 <h4>Personal (fun stuff)</h4>
 2018 - Blockchain Resume - I wanted to learn more about the Bitcoin blockchain as a data structure, so I created a simplified model based on a resume. The code is complete with cpu-level 'mining' (hashing) and can match a user-specified difficulty in the hash headers of each block.
+* [BlockchainResume on GitHub](https://github.com/humanumbrella/blockchain_resume)
+
 2017 - RasbPi Mirror -
+
 2015 - Igloo
 
 
