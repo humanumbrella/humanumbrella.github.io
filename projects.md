@@ -4,16 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-<h4>Personal (fun stuff)</h4>
-2018 - Blockchain Resume - I wanted to learn more about the Bitcoin blockchain as a data structure, so I created a simplified model based on a resume. The code is complete with cpu-level 'mining' (hashing) and can match a user-specified difficulty in the hash headers of each block.
-* [BlockchainResume on GitHub](https://github.com/humanumbrella/blockchain_resume)
-
-2017 - RasbPi Mirror -
-
-2015 - Igloo
-
-
-
 <h4>Academia (nerdy fun stuff)</h4>
 2017 - CCDSimul - This is a client/server C# project to run two distinct copies of MaximDL to interact with two astronomical CCD cameras. MaximDL supports imaging with multiple cameras on the same computer, but not at the same time. So I needed to implement something that would allow me to take images at the same time on both cameras.  CCDSimul allows two computers, each running MaximDL and having the camera installed locally to interface across the local network and synchronize imaging on the two cameras. Further, the results are output to a shared Dropbox folder on the two machines, which syncs the image files.
 * [CCDSimulServer on GitHub](https://github.com/humanumbrella/CCDSimulServer)
@@ -29,3 +19,11 @@ permalink: /projects/
 
 2008 - Quadrowulf - This is a holding place for the documentation for a project I did as a senior in undergrad.
 [PDF link](Quadrowulf-Documentation.pdf)
+
+<h4>Personal (fun stuff)</h4>
+2018 - Blockchain Resume - I wanted to learn more about the Bitcoin blockchain as a data structure, so I created a simplified model based on a resume. The code is complete with cpu-level 'mining' (hashing) and can match a user-specified difficulty in the hash headers of each block.
+* [BlockchainResume on GitHub](https://github.com/humanumbrella/blockchain_resume)
+
+2017 - RasbPi Mirror -
+
+2015 - Igloo
