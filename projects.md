@@ -26,4 +26,5 @@ permalink: /projects/
 
 2017 - RasbPi Mirror -
 
-2015 - Igloo
+2015 - Igloo - This has been a pet project for a long time, in 2015 I finally checked it off the bucket list.
+* [More Details]({{site.root}}/proj/test.html)

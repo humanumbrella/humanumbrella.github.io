@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Igloo
+categories: Projects
 ---
 
 <h4>2015 - Igloo in North Carolina</h4>
@@ -12,3 +12,11 @@ I suggested the idea to my girlfriend and she enthusiastically agreed that we sh
 It took the better part of 3 hours for us to generate enough snow blocks to complete the project and we traded roles generating blocks vs stacking blocks.
 
 Including some photos of my dog Sagan in his online dating profile shots. The igloo lasted multiple days after the surrounding snow melted.
+
+[![]({{site.root}}/assets/img/igloo/150227-igloo.jpg)]()
+
+[![]({{site.root}}/assets/img/igloo/150227-igloo-2.jpg)]()
+
+[![]({{site.root}}/assets/img/igloo/150227-sagan-1.jpg)]()
+
+[![]({{site.root}}/assets/img/igloo/150227-sagan-2.jpg)]()
