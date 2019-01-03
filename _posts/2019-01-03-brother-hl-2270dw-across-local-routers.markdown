@@ -23,10 +23,18 @@ I could have made it DMZ since it's already inside another NAT but I couldn't fi
 
 E.g. when I tried to search for the printer automatically on my desktop (192.*), it failed. But I could supply the IP of the 192 addy of the mesh router directly, Windows would recognize the Brother wireless printer and say that I already had the driver as if things were working properly. I got excited but then frustrated because the printer would add just fine, but nothing would print.
 
-I started digging a bit more and found under Printer Properties > Ports > Standard TCP/IP Port (that was added via the wizard). If I click Configure Port here I see that there are two options for the print protocol:  Raw and LPR.  Below that, I see port number 515 as the one used for LPR (which is selected by default).  *BINGO!*
+I started digging a bit more and found under Printer Properties > Ports > Standard TCP/IP Port (that was added via the wizard). 
+
+[![Windows 10 Printer Management]({{site.root}}/assets/img/190103-brother-manage.png)]()
+
+If I click Configure Port here I see that there are two options for the print protocol:  Raw and LPR.  Below that, I see port number 515 as the one used for LPR (which is selected by default).  *BINGO!*
+
+[![Printer Port Settings]({{site.root}}/assets/img/190103-brother.png)]()
 
 I added that port to the router (515) and then tried to print again and things worked great. So if that helps anyone else, cool.
 
+* 515
+
 Sidenote -- I got excited and thought I'd fixed the problem earlier but it turned out to just be a coincidence. It turns out that the Raw port is 9100, and whatever you send to this port will print. I didn't know that at the time and I tried to hit IP:9100 in the browser and the GET request printed out. I didn't make the connection until I went over and saw what printed out, haha.
 
-You could have some fun with this... but I'll leave it at that.
+You could have some fun with this... but I'll leave it at that. I removed 9100 from port forwarding.
