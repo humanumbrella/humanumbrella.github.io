@@ -15,9 +15,9 @@ permalink: /projects/
 2016 - ArduinoPolarimeter - This code is the firmware to upload onto an Arduino UNO. You will need an Adafruit motor shield board. I used this one. This software represents the brains running behind the custom Polarimeter project my dissertation was based on.
 * [ArduinoPolarimeter on GitHub](https://github.com/humanumbrella/ArduinoPolarimeter)
 
-2015 - Pier Modification Project
+2015 - Pier Modification Project - Renovated the 10 year old concrete and rebar (earthquake-proof)
 
-2012 - Transit of Venus - Here I was tasked with getting the local university observatory capable of being a solar observatory, and then setting up a streaming website and scripts to continuously image while also manning the telescope and interacting with the thousands of people that showed up. It was a little stressful in the moment, especially when the clouds rolled in. But we were able to capture some images of the event, and even put it together and uploaded as a youtube video.
+2012 - Transit of Venus - Retrofitted the 24" Morehead Telescope with a solar filter to image the sun while Venus transited. Cool!
 [Transit of Venus page]({{site.root}}/proj/tov.html)
 
 2008 - Quadrowulf - This is a holding place for the documentation for a project I did as a senior in undergrad.
