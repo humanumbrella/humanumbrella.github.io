@@ -17,6 +17,9 @@ permalink: /projects/
 
 2015 - Pier Modification Project
 
+2012 - Transit of Venus - Here I was tasked with getting the local university observatory capable of being a solar observatory, and then setting up a streaming website and scripts to continuously image while also manning the telescope and interacting with the thousands of people that showed up. It was a little stressful in the moment, especially when the clouds rolled in. But we were able to capture some images of the event, and even put it together and uploaded as a youtube video.
+[Transit of Venus page]({{site.root}}/proj/tov.html)
+
 2008 - Quadrowulf - This is a holding place for the documentation for a project I did as a senior in undergrad.
 [PDF link](Quadrowulf-Documentation.pdf)
 

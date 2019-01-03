@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Idea for ML project
+title: Idea for newbie ML project
 description: Documenting my idea for a test ML project
 categories: articles
 date: 2018-12-27 07:53:07 -0800
