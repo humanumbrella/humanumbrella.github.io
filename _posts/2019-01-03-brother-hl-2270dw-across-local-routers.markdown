@@ -39,4 +39,6 @@ So if that helps anyone else, cool.
 
 Sidenote -- I got excited and thought I'd fixed the problem earlier but it turned out to just be a coincidence. It turns out that the Raw port is 9100, and whatever you send to this port will print. I didn't know that at the time and I tried to hit IP:9100 in the browser and the GET request printed out. I didn't make the connection until I went over and saw what printed out, haha.
 
+[![printed GET request]({{site.root}}/assets/img/190103-lol.jpg)]()
+
 You could have some fun with this... but I'll leave it at that. I removed 9100 from port forwarding.
