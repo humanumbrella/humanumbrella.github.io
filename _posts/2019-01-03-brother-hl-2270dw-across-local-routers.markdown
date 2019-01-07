@@ -9,7 +9,7 @@ keywords: [networking, printer]
 image: bro.jpg
 ---
 
-Topology at my place is a little complicated. Have Google fiber and I'm connected via Ethernet directly into that router. I have another mesh router acting as a router on 10.0.0.1/24, and another set of routers acting as access points on the same 192.168.1.1/24. Suffice it to say there are 2 networks (10.* and 192.*) and the printer is on one (10.*) and my desktop is on the other (192.*).
+Topology at my place is a little complicated. Have Google fiber and I'm connected via Ethernet directly into that router. I have another mesh router acting as a router on 10.0.0.1/24, and another set of routers acting as access points on the same 192.168.1.1/24. Suffice it to say there are 2 networks (10.* and 192.* ) and the printer is on one (10.* ) and my desktop is on the other (192.* ).
 
 I thought I needed to give access to the 10.0.0.1/255 network via the fiber box - but that's not true (and there's no option to do that on the box). Instead the problem was solved by opening ports on the 10.0.0.1 router through to the Brother printer.
 
@@ -23,7 +23,7 @@ I could have put the printer in the DMZ since it's already inside another NAT bu
 
 E.g. when I tried to search for the printer automatically on my desktop (192.*), it failed. But I could supply the 192 IP of the mesh router directly and Windows would recognize the Brother wireless printer. The rest of the prompts were familiar:  tell me that I already had the driver as if things were working properly, ask if I want to share, ask if I want to print a test page. I got excited because I thought I was done. However, while the printer would add just fine,  nothing would print. Bummer.
 
-I started digging a bit more and found something interesting under Printer Properties > Ports > Standard TCP/IP Port (this is the port that was added via the wizard). 
+I started digging a bit more and found something interesting under Printer Properties > Ports > Standard TCP/IP Port (this is the port that was added via the wizard).
 
 [![Windows 10 Printer Management]({{site.root}}/assets/img/190103-brother-manage.png)]()
 

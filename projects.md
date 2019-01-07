@@ -18,12 +18,10 @@ permalink: /projects/
 2015 - Pier Modification Project - Renovated the 10 year old concrete and rebar (earthquake-proof)
 
 2012 - Transit of Venus - Retrofitted the 24" Morehead Telescope with a solar filter to image the sun while Venus transited. Cool!
-
-*[Transit of Venus page]({{site.root}}/proj/tov.html)
+* [Transit of Venus page]({{site.root}}/proj/tov.html)
 
 2008 - Quadrowulf - This is a holding place for the documentation for a project I did as a senior in undergrad.
-
-*[PDF link](Quadrowulf-Documentation.pdf)
+* [PDF link](Quadrowulf-Documentation.pdf)
 
 <h4>Personal (fun stuff)</h4>
 2018 - Blockchain Resume - I wanted to learn more about the Bitcoin blockchain as a data structure, so I created a simplified model based on a resume. The code is complete with cpu-level 'mining' (hashing) and can match a user-specified difficulty in the hash headers of each block.
