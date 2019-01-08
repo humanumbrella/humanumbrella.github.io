@@ -12,7 +12,7 @@ This has been a thing for a while now. I always enjoy trying crosswords, but I'm
 
 So lately, I wake up and start my day with that.  The NY times one might be the best but it's not free so I don't do it. I have been doing the LA times ones at [this link.](http://games.latimes.com/games/daily-crossword/)
 
-Make sure you have adblock installed because they go hard in the paint with annoying ads. I recommend Adblock Origin [on firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) or [on chrome.](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
+Make sure you have adblock installed because they go hard in the paint with annoying ads. I recommend uBlock Origin [on firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) or [on chrome.](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
 
 I was also thinking this could be a good way to store public key cryptography seeds.
 
