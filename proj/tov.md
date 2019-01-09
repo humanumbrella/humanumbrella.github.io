@@ -30,7 +30,7 @@ I wasn't prepared for how many people showed up though, hah. It was a little str
 
 * [Morehead Observatory News Release](http://moreheadplanetarium.org/news/releases/transit-of-venus) < This is why so many people showed up.
 
-  * [pdf backup](#)
+  > [pdf backup of the story](#)
 
 * [Morehead Observatory Blog Post](http://moreheadplanetarium.org/news/releases/rare-but-not-impossible-your-last-chance-to-see-a-transit-of-venus-june-5-2012) < This is why so many people showed up.
-  * [pdf backup](#)
+  > [pdf backup of the story](#)

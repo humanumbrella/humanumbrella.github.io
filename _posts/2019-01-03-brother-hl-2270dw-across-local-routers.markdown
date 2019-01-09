@@ -21,7 +21,7 @@ I could have put the printer in the DMZ since it's already inside another NAT bu
 * 54925
 * 54926
 
-E.g. when I tried to search for the printer automatically on my desktop (192.*), it failed. But I could supply the 192 IP of the mesh router directly and Windows would recognize the Brother wireless printer. The rest of the prompts were familiar:  tell me that I already had the driver as if things were working properly, ask if I want to share, ask if I want to print a test page. I got excited because I thought I was done. However, while the printer would add just fine,  nothing would print. Bummer.
+E.g. when I tried to search for the printer automatically on my desktop (192.* ), it failed. But I could supply the 192 IP of the mesh router directly and Windows would recognize the Brother wireless printer. The rest of the prompts were familiar:  tell me that I already had the driver as if things were working properly, ask if I want to share, ask if I want to print a test page. I got excited because I thought I was done. However, while the printer would add just fine,  nothing would print. Bummer.
 
 I started digging a bit more and found something interesting under Printer Properties > Ports > Standard TCP/IP Port (this is the port that was added via the wizard).
 
