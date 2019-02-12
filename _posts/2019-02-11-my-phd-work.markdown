@@ -110,7 +110,13 @@ This was very much a beta version of the hardware. When I left the program there
 
 There are many levels here. From arduino and motor controllers, to simultaneously imaging with both cameras using commercial software, and finally to computing a polarization measurement for the entire frame using image analysis tools.
 
-Let's talk high level for a minute. In the simplest form, we need a motor to move this imaging package into and out of the optical path. Further - we need a stepper motor to rotate the half-wave plate (special piece of glass) in front of the polarizing cube to rotate the light around so we can fully sample the space. Now, because we wanted a dual band polarimeter - this setup is duplicated, one for V-band imaging and one for I-band imaging. These are common filters in astronomy, and I ordered the optics to match these wavebands, in total there were 2 cubes and 2 half-wave plates from Karl Lambrecht -- check out this site for a good time > [http://www.klccgo.com/](http://www.klccgo.com/).
+Let's talk high level for a minute. In the simplest form, we need a motor to move this imaging package into and out of the optical path. Further - we need a stepper motor to rotate the half-wave plate (special piece of glass) in front of the polarizing cube to rotate the light around so we can fully sample the space. Now, because we wanted a dual band polarimeter - this setup is duplicated, one for V-band imaging and one for I-band imaging. These are common filters in astronomy, and I ordered the optics to match these wavebands, in total there were 2 cubes and 2 half-wave plates from Karl Lambrecht -- [check out the website](http://www.klccgo.com/) for a good time.
+
+{% include image.html
+            img="/assets/img/phd/kl.gif"
+            title="Karl Lambrecht"
+            caption="When your parts are good, your site can suck."
+            url="http://www.klccgo.com/"%}
 
 So we're going to need 3 motors, a bunch of limit switches, and something to control it all. I chose an Arduino because I was already a little familiar with them and then I found an easily assembled motor shield by Adafruit that let me interface with all of the components I needed to... (almost). I also bought a motor driver for the  linear actuator that moved the whole shelf into and out of the optical path.
 
@@ -119,6 +125,13 @@ This work was on my own from assembling and soldering the boards to writing the 
 ### Step 1. Arduino software package
 
 Arduino UNO + Adafruit Motor Driver board, with an added bank of pins for extra grounds for all of the limit switches. 
+
+Started with a Vexta motor driver but then moved to the Arduino.
+{% include yt.html
+            id="EGMIvWjmYQg" %}
+and
+{% include yt.html
+            id="MgQHeiNNaUk" %}
 
 The code is open-source, and you can find it on my [GitHub](https://github.com/humanumbrella/ArduinoPolarimeter). The essence of this code is: set up all of the pins and relevant motor settings in the setup phase, and then wait. However, like all of the autonomous, meant-to-be-remote software operating hardware in the group - it will not do anything unless it knows where its components are, meaning you need to issue a *HOME* command if the device has been rebooted or has lost its state. We do not want to be issuing moving commands if we do not know where things are situated.
 
@@ -136,6 +149,14 @@ Here's a video of the homing sequence so you can get an idea of how it works. Th
 
 ### Step 3. Imaging. 
 
+We're using Diffraction Limited's MaximDL to interface with the astronomical cameras. This gives us a consistent approach to all of the other plug and play software we're using in the global network of telescopes. With MaximDL version 5 - they finally allowed two cameras to be plugged into the same computer, however, this was meant to be used for a guide camera. That just means there's a small pick off mirror and a small camera that helps the mount maintain a precise position of that star on those pixels, and adjust as needed in real time.
+
+The problem is that we can't use that functionality to expose two full frame images at the same time, which is kind of necessary to complete this project at all. We need to expose the two cameras at the same time in order to compare the polarization signature, otherwise if you imagine doing it sequentially there may be a change in the light in the time it takes to wait for one camera to finish reading out before starting the other - it's just not a good idea.
+
+I tried to ask how to do it on the forums. [here is the link](http://forum.diffractionlimited.com/threads/accessing-camera-2-via-scripting.360/)
+
+I mentioned Tom How [video link 1](https://www.youtube.com/watch?v=dmqxgDJBmX8) and [here is another](https://www.youtube.com/watch?v=nl8JlrU-sWE)- and his method was what I ended up going with. Two copies of MaximDL on two computers, with a Client/Server acting as the go between.
+
 ### Step 4. Image Sync
 
 Here's the result of the Client/Server setup
@@ -143,7 +164,13 @@ Here's the result of the Client/Server setup
 {% include yt.html
             id="aM1idGc1mfw" %}
 
-### Step 5. Image Anaylsis
+### Step 5. Image Acquisition (Polarization Run)
+
+I'll come back to this soon.
+
+### Step 6. Image Analysis
+
+I'll come back to this soon.
 
 ## What did I learn?
 A lot. 
