@@ -1,0 +1,9 @@
+.image-wrapper{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    .image-caption {
+        color: $grey-color;
+        margin-top: $spacing-unit / 3;
+    }
+}
