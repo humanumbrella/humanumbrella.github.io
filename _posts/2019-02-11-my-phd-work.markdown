@@ -129,9 +129,6 @@ Here's a video of the homing sequence so you can get an idea of how it works. Th
 
 ### Step 2. C# GUI to manually interface with the Arduino via the custom Serial Protocol
 
-
-https://www.youtube.com/watch?v=NTNV4rl5aBc
-
 {% include image.html
             img="/assets/img/phd/peak-through.png"
             title="Instrument"
@@ -141,10 +138,16 @@ https://www.youtube.com/watch?v=NTNV4rl5aBc
 
 ### Step 4. Image Sync
 
+Here's the result of the Client/Server setup
+
+{% include yt.html
+            id="aM1idGc1mfw" %}
 
 ### Step 5. Image Anaylsis
 
-## What did I learn
-A lot. How to put things together - how to push beyond "that's not possible" to "here's how I'll do it." Ask for help. I did not ask for help, and I got buried under the amount of work involved in this project. I accomplished a great deal but ultimately did not complete the necessary amount of work to graduate. I completed all of the requirements to graduate except perform novel science with the instrument because that required staying on the mountain for an extended period of time waiting for GRB's to occur. I don't have regrets, life moves on. I don't think I was in the right place for this work, and I don't think the incentives lined up properly for my advisor to push me out into the world rather than keep me around. I place no blame on anyone. I was simply ready to move my life in a different direction.
+## What did I learn?
+A lot. 
+
+How to put things together - how to push beyond "that's not possible" to "here's how I'll do it." Ask for help. I did not ask for help, and I got buried under the amount of work involved in this project. I accomplished a great deal but ultimately did not complete the necessary amount of work to graduate. I completed all of the requirements to graduate except perform novel science with the instrument because that required staying on the mountain for an extended period of time waiting for GRB's to occur. I don't have regrets, life moves on. I don't think I was in the right place for this work, and I don't think the incentives lined up properly for my advisor to push me out into the world rather than keep me around. I place no blame on anyone. I was simply ready to move my life in a different direction.
 
 Cheers!
