@@ -122,11 +122,25 @@ Arduino UNO + Adafruit Motor Driver board, with an added bank of pins for extra 
 
 The code is open-source, and you can find it on my [GitHub](https://github.com/humanumbrella/ArduinoPolarimeter). The essence of this code is: set up all of the pins and relevant motor settings in the setup phase, and then wait. However, like all of the autonomous, meant-to-be-remote software operating hardware in the group - it will not do anything unless it knows where its components are, meaning you need to issue a *HOME* command if the device has been rebooted or has lost its state. We do not want to be issuing moving commands if we do not know where things are situated.
 
+Here's a video of the homing sequence so you can get an idea of how it works. The front tray of rotating motors rides on the back tray that moves to the center position. Scaffolding is visible.
+
+{% include yt.html
+            id="NTNV4rl5aBc" %}
+
 ### Step 2. C# GUI to manually interface with the Arduino via the custom Serial Protocol
+
+
+https://www.youtube.com/watch?v=NTNV4rl5aBc
+
+{% include image.html
+            img="/assets/img/phd/peak-through.png"
+            title="Instrument"
+            caption="This shows the instrument from a photon's perspective." %}
 
 ### Step 3. Imaging. 
 
 ### Step 4. Image Sync
+
 
 ### Step 5. Image Anaylsis
 

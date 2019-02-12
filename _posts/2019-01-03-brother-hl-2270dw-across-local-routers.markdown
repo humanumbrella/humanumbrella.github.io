@@ -25,11 +25,11 @@ E.g. when I tried to search for the printer automatically on my desktop (192.* )
 
 I started digging a bit more and found something interesting under Printer Properties > Ports > Standard TCP/IP Port (this is the port that was added via the wizard).
 
-![Windows 10 Printer Management]({{site.root}}/assets/img/190103-brother-manage.png)
+![Windows 10 Printer Management](/assets/img/190103-brother-manage.png)
 
 If I click Configure Port here I see that there are two options for the print protocol:  Raw and LPR. LPR is selected by default. Below that, I see port number 515 as the one used for LPR.  *BINGO!*
 
-![Printer Port Settings]({{site.root}}/assets/img/190103-brother.png)
+![Printer Port Settings](/assets/img/190103-brother.png)
 
 I added that port (515) to the 10.0.0.1 router for the printer's IP and then tried to print again and things worked just fine.
 
@@ -39,6 +39,6 @@ So if that helps anyone else, cool.
 
 Sidenote -- I got excited and thought I'd fixed the problem earlier but it turned out to just be a coincidence. It turns out that the Raw port is 9100, and whatever you send to this port will print. I didn't know that at the time and I tried to hit IP:9100 in the browser and the GET request printed out. I didn't make the connection until I went over and saw what printed out, haha.
 
-![printed GET request]({{site.root}}/assets/img/190103-lol.jpg)
+![printed GET request](/assets/img/190103-lol.jpg)
 
 You could have some fun with this... but I'll leave it at that. I removed 9100 from port forwarding.
