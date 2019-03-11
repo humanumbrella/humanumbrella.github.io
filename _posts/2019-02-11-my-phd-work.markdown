@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Unfinished Astrophysics PhD
+title: My Astrophysics PhD Work
 description: Run through of hementation of the work
 categories: articles
 date: 2019-02-11 13:29:22 -0800
@@ -64,7 +64,7 @@ Before finally settling on:
             img="/assets/img/phd/design.png"
             title="v2 Final Designs"
             caption="Final v2 Design" %}         
-            
+
 I'm simplifying a lot of back and forth and failed attempts at connective hardware to just come out and say that we ended up with this design:
 
 {% include image.html
@@ -97,7 +97,7 @@ Without further ado - here's the instrument on the back of the telescope:
             img="/assets/img/phd/instrument.png"
             title="Instrument Installed"
              %}
-            
+
 {% include image.html
             img="/assets/img/phd/peak-through.png"
             title="Instrument"
@@ -105,7 +105,7 @@ Without further ado - here's the instrument on the back of the telescope:
 
 This was very much a beta version of the hardware. When I left the program there were several others working on improving the structure integrity and rigidity of the setup. This was how it was when I left. Let's move on to software now.
 
-            
+
 ## Moving on to software.
 
 There are many levels here. From arduino and motor controllers, to simultaneously imaging with both cameras using commercial software, and finally to computing a polarization measurement for the entire frame using image analysis tools.
@@ -124,7 +124,7 @@ This work was on my own from assembling and soldering the boards to writing the 
 
 ### Step 1. Arduino software package
 
-Arduino UNO + Adafruit Motor Driver board, with an added bank of pins for extra grounds for all of the limit switches. 
+Arduino UNO + Adafruit Motor Driver board, with an added bank of pins for extra grounds for all of the limit switches.
 
 Started with a Vexta motor driver but then moved to the Arduino.
 {% include yt.html
@@ -147,7 +147,7 @@ Here's a video of the homing sequence so you can get an idea of how it works. Th
             title="Instrument"
             caption="This shows the instrument from a photon's perspective." %}
 
-### Step 3. Imaging. 
+### Step 3. Imaging.
 
 We're using Diffraction Limited's MaximDL to interface with the astronomical cameras. This gives us a consistent approach to all of the other plug and play software we're using in the global network of telescopes. With MaximDL version 5 - they finally allowed two cameras to be plugged into the same computer, however, this was meant to be used for a guide camera. That just means there's a small pick off mirror and a small camera that helps the mount maintain a precise position of that star on those pixels, and adjust as needed in real time.
 
@@ -173,7 +173,7 @@ I'll come back to this soon.
 I'll come back to this soon.
 
 ## What did I learn?
-A lot. 
+A lot.
 
 How to put things together - how to push beyond "that's not possible" to "here's how I'll do it." Ask for help. I did not ask for help, and I got buried under the amount of work involved in this project. I accomplished a great deal but ultimately did not complete the necessary amount of work to graduate. I completed all of the requirements to graduate except perform novel science with the instrument because that required staying on the mountain for an extended period of time waiting for GRB's to occur. I don't have regrets, life moves on. I don't think I was in the right place for this work, and I don't think the incentives lined up properly for my advisor to push me out into the world rather than keep me around. I place no blame on anyone. I was simply ready to move my life in a different direction.
 
