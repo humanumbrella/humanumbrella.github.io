@@ -49,7 +49,7 @@ permalink: /projects/
 
 2008 - Quadrowulf - My advisor, Hayden S. Porter, was looking to build a new compact Beowulf cluster. I had just heard about and seen the build and documentation for Microwulf, and suggested that I could build Quadrowulf for him. He gave me a budget and said get it done. The PDF below documents the project.
 
-* [PDF link](Quadrowulf-Documentation.pdf)
+* [PDF link](quadrowulf/Quadrowulf-Documentation.pdf)
 
 2007 - Kernel upgrade to keep on campus Beowulf running - the on-campus Beowulf cluster, used by NASA's Goddard Space Flight Center to model the atmosphere, was losing nodes and the replacement parts from the manufacturer were new motherboards with SATA hard drives. The nodes would not boot and I was tasked to fix it. Successfully accomplished this task.
 
