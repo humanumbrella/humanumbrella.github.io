@@ -1,0 +1,14 @@
+---
+layout: post
+title: w00t
+description: get the laptop goin
+categories: articles
+date: 2019-10-02 16:09:25 -0700
+tags: []
+---
+Cool - so got jekyll running on my new laptop - here we go.
+random thoughts go here.
+
+bitcoin is interesting. brains are interesting.
+next post will be more of an essay - just checking the pipes now.
+back to work
