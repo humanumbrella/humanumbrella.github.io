@@ -7,3 +7,21 @@ date: 2019-11-20 11:49:06 -0600
 tags: [daily]
 ---
 if you imagine you need to write something every day, what does it look like
+
+was introduced to this yesterday: 
+[https://github.com/wolfmcnally/LifeHash](https://github.com/wolfmcnally/LifeHash)
+
+(https://github.com/wolfmcnally/LifeHash)[https://github.com/wolfmcnally/LifeHash]
+not sure the markdown order so lets try both
+
+one side wanted to use this, one side wanted to avoid this
+
+the brain is good at some things
+the computer is good at some things
+
+we want repeatability, we want safety.
+
+the brain is easily fooled.
+mathematics is not. 
+
+computers are good at math, let them do the complicated stuff. i liked this approach
