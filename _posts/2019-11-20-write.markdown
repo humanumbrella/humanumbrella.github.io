@@ -1,0 +1,9 @@
+---
+layout: post
+title: write
+description: here we go
+categories: articles
+date: 2019-11-20 11:49:06 -0600
+tags: [daily]
+---
+if you imagine you need to write something every day, what does it look like
